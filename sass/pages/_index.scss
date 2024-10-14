@@ -1,0 +1,131 @@
+
+body{
+    background-color: #ead8c0;
+}
+.textoSecundario{
+    text-align: center;
+    padding: 32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Productos*/
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 25px;
+    padding-bottom: 40px;
+
+    
+.coder-card{
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.coder-card img{
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 25px;
+    
+
+
+
+    
+}
+    
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+
+    
+}
+}
+
+
+/* Sucursales */
+
+.body1{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+
+    .wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+
+    
+    .image-box1{
+        position: relative;
+        overflow: hidden;
+        width: 355px;
+        height: 200px;
+        margin: 45px;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 1px solid rgb(15, 0, 128);
+        }
+
+
+        .image-box1 img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+
+
+        .overlay{ 
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            opacity: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition:  opacity 0.3s ease;
+            
+            }
+            
+
+            
+        .overlay-text1{
+        color: #fff;
+        font-weight: bold;
+        font-size: 18px;
+        text-transform: uppercase;
+    }   
+    
+
+    .image-box1:hover img{
+        transform: scale(1.1);
+    
+
+    }
+
+    .image-box1:hover .overlay{
+        opacity: 1;
+        
+    }
+}
+
+

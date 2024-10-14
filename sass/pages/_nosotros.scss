@@ -1,0 +1,63 @@
+
+/*About*/
+
+.about{
+    width: 92%;
+    justify-content: space-around;
+    align-items: center;
+
+
+    .content img{
+        margin: auto;
+        width: 370px;
+        height: 350px;
+        border-radius: 50%;
+    }
+    
+    .texto{
+        width: 550px;
+        max-width: 100%;
+        padding: 0 9px;
+        text-align: center;
+    }
+
+
+    .content{
+        width: 1280px;
+        max-width: 95%;
+        margin: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    
+    }
+    
+}
+
+
+@media screen and (max-width:430px){
+    
+    .about .content img{
+            width: 265px;
+        
+            object-fit: cover;
+        }
+        .texto p{
+            margin-left: 10px;
+        }
+    }
+
+
+@media screen and (max-width:300px){
+    
+    .about .content img{
+        width: 100%;
+        margin: 0 4px;
+        padding: 10px;
+    
+    }
+    .texto p{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 45px;
+}
+
+body{
+    background-color: #ead8c0;
+}
+
+.nav-item{
+    padding: 0 11px;
+    
+}
+
+.container-fluid{
+    text-align: center;
+}
+
+.d-item{
+    height: 500px;
+}
+
+.d-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.display-1{
+    font-size: 45px;
+}
+
+
