@@ -34,3 +34,17 @@
             }
         });
     }
+
+
+    
+const fulImgBox = document.getElementById("fulImgBox");
+fulImg = document.getElementById("fulImg");
+
+function openImg(refence){
+    fulImgBox.style.display = "flex"
+    fulImg.src = refence
+}
+
+function closeImg(){
+    fulImgBox.style.display = "none"
+}
