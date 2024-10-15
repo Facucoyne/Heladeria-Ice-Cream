@@ -14,6 +14,13 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 
+.btn-wsp{
+    width: 7rem;
+  position: fixed;
+  bottom: 5%;
+  right: 0;
+}
+
 .textoTerciario{
     text-align: center;
     font-size: 40px;
@@ -72,4 +79,10 @@ body{
     color: #fff;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 400px) {
+    .btn-wsp {
+        width: 5.5rem;
+      }
+    }
 
