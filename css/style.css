@@ -214,6 +214,7 @@ body {
 @media screen and (max-width: 430px) {
   .about .content img {
     width: 100%;
+    padding: 27px;
     object-fit: cover;
   }
   .texto p {
